@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaIQ Solutions | Sopulu Obi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#home">
+                        <img id="logo-img" src="img/PandaIq Logo.png" alt="PandaIQ Solutions Logo">
+                    </a>
+                    <input type="file" id="logo-upload" accept="image/*" style="display: none;">
+                    <label for="logo-upload" class="logo-upload-btn">Upload Logo</label>
+                </div>
+                <nav class="nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#resume" class="nav-link">Resume</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li class="social-nav">
+                            <a href="https://twitter.com/pandaiqsolutions" target="_blank" class="social-icon" aria-label="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                            </a>
+                            <a href="https://linkedin.com/in/pandaiqsolutions" target="_blank" class="social-icon" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://instagram.com/pandaiqsolutions" target="_blank" class="social-icon" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                        </li>
+                        <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-slider">
+                <div class="slide active" style="background-image: url('img/slide1.jpg')">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2 class="subtitle">Hello, I'm</h2>
+                            <h1 class="title">Sopulu Obi</h1>
+                            <p class="description">A multi-skilled entrepreneur helping people succeed online</p>
+                            <div class="roles">
+                                <span class="role">Design Expert</span>
+                                <span class="role">Digital Strategist</span>
+                                <span class="role">Frontend Developer</span>
+                            </div>
+                            <div class="cta">
+                                <a href="#services" class="btn btn-primary">Explore Services</a>
+                                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('img/slide2.jpg')">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2 class="subtitle">Transform Your Brand</h2>
+                            <h1 class="title">Creative Design Solutions</h1>
+                            <p class="description">Professional Canva templates, logos, and YouTube thumbnails</p>
+                            <div class="roles">
+                                <span class="role">Canva Expert</span>
+                                <span class="role">Logo Design</span>
+                                <span class="role">YouTube Thumbnails</span>
+                            </div>
+                            <div class="cta">
+                                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('img/slide3.jpg')">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2 class="subtitle">Learn & Grow</h2>
+                            <h1 class="title">Digital Income Strategies</h1>
+                            <p class="description">Make $500 in 5 days with proven digital tools</p>
+                            <div class="roles">
+                                <span class="role">E-book Author</span>
+                                <span class="role">Career Coach</span>
+                                <span class="role">Digital Strategist</span>
+                            </div>
+                            <div class="cta">
+                                <a href="#services" class="btn btn-primary">Learn More</a>
+                                <a href="#contact" class="btn btn-secondary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev-btn" aria-label="Previous slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <button class="slider-btn next-btn" aria-label="Next slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Services</h2>
+                    <p class="section-subtitle">Helping you succeed online with premium solutions</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3 class="service-title">Design Services</h3>
+                        <p class="service-description">Professional Canva templates, Resume Kits, Logos, and YouTube Thumbnails designed to make you stand out.</p>
+                        <a href="#" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💼</div>
+                        <h3 class="service-title">Digital Strategy</h3>
+                        <p class="service-description">Digital product creation & strategy to help you monetize your skills and build sustainable online income.</p>
+                        <a href="#" class="service-link">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">Frontend web development services to create responsive, modern websites that convert visitors to customers.</p>
+                        <a href="#" class="service-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Portfolio</h2>
+                    <p class="section-subtitle">Check out some of my recent projects</p>
+                </div>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="digital">Digital Products</button>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Row 1 -->
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-img">
+                            <img src="img/Resume.jpg" alt="Resume Template Design">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Resume Template Kit</h3>
+                                    <p>Professional Canva resume templates for job seekers</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-img">
+                            <img src="img/logos 1.png" alt="Logo Design Collection">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Brand Identity Package</h3>
+                                    <p>Complete branding solution for a tech startup</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-img">
+                            <img src="img/e-commerce.jpg" alt="E-commerce Website">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>E-commerce Website</h3>
+                                    <p>Responsive online store for a fashion brand</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2 -->
+                    <div class="portfolio-item" data-category="digital">
+                        <div class="portfolio-img">
+                            <img src="img/Digital.png" alt="Digital Product">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Digital Income E-book</h3>
+                                    <p>Comprehensive guide to making money online</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-img">
+                            <img src="img/Youtube Thumbnail.png" alt="YouTube Thumbnails">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>YouTube Thumbnail Pack</h3>
+                                    <p>Eye-catching thumbnails for content creators</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-img">
+                            <img src="img/Porfolio.jpg" alt="Portfolio Website">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Portfolio Website</h3>
+                                    <p>Custom portfolio site for a photographer</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 3 -->
+                    <div class="portfolio-item" data-category="digital">
+                        <div class="portfolio-img">
+                            <img src="/placeholder.svg?height=600&width=800" alt="Online Course">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Digital Marketing Course</h3>
+                                    <p>Comprehensive online course for beginners</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-img">
+                            <img src="img/Mobile view.jpg" alt="Mobile App UI">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Mobile App UI Design</h3>
+                                    <p>User interface design for a fitness application</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-img">
+                            <img src="/placeholder.svg?height=600&width=800" alt="Social Media Kit">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Social Media Kit</h3>
+                                    <p>Complete social media templates for businesses</p>
+                                    <a href="#" class="portfolio-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Resume & Experience</h2>
+                    <p class="section-subtitle">My professional journey and skills</p>
+                </div>
+                
+                <div class="resume-row">
+                    <!-- Resume Header Row -->
+                    <div class="resume-header">
+                        <div class="resume-image">
+                            <img src="img/Resume.jpg" alt="Sopulu Obi">
+                        </div>
+                        <div class="resume-header-content">
+                            <h3>Sopulu Obi</h3>
+                            <p>A multi-skilled professional with expertise in design, digital strategy, and web development. With over 5 years of experience, I've helped numerous clients elevate their online presence and achieve their business goals.</p>
+                            <a href="#" class="btn btn-primary download-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="download-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download Resume (PDF)
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Skills & Tools Row -->
+                    <div class="resume-sections">
+                        <div class="resume-section">
+                            <h3 class="resume-section-title">Key Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>Canva Design</span>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>Logo Design</span>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>Frontend Development</span>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>Digital Marketing</span>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>Content Creation</span>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        <span>E-commerce Strategy</span>
+                                        <span class="skill-percentage">75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-section">
+                            <h3 class="resume-section-title">Tools & Technologies</h3>
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                                    </div>
+                                    <div class="tool-name">Canva</div>
+                                </div>
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                    </div>
+                                    <div class="tool-name">Adobe Illustrator</div>
+                                </div>
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
+                                    </div>
+                                    <div class="tool-name">Figma</div>
+                                </div>
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                                    </div>
+                                    <div class="tool-name">HTML/CSS</div>
+                                </div>
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line><line x1="14.83" y1="9.17" x2="18.36" y2="5.64"></line><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line></svg>
+                                    </div>
+                                    <div class="tool-name">JavaScript</div>
+                                </div>
+                                <div class="tool-item">
+                                    <div class="tool-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                    </div>
+                                    <div class="tool-name">WordPress</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience Row -->
+                    <div class="experience-section">
+                        <h3 class="resume-section-title">Experience Highlights</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Founder & Creative Director</h4>
+                                    <h5>PandaIQ Solutions</h5>
+                                    <p class="timeline-date">2020 - Present</p>
+                                    <p>Leading a creative agency specializing in digital design, web development, and online business strategy. Responsible for client acquisition, project management, and delivering high-quality solutions that drive results.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Senior Frontend Developer</h4>
+                                    <h5>Tech Innovations Ltd</h5>
+                                    <p class="timeline-date">2018 - 2020</p>
+                                    <p>Developed responsive websites and web applications for enterprise clients. Led a team of junior developers and implemented best practices for code quality and performance optimization.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Digital Marketing Specialist</h4>
+                                    <h5>Global Media Agency</h5>
+                                    <p class="timeline-date">2016 - 2018</p>
+                                    <p>Managed digital marketing campaigns and created content strategies for clients across various industries. Increased client engagement by an average of 45% through targeted social media campaigns and SEO optimization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Row -->
+                    <div class="education-section">
+                        <h3 class="resume-section-title">Education & Certifications</h3>
+                        <div class="education-grid">
+                            <div class="education-item">
+                                <h4>Bachelor of Science in Computer Science</h4>
+                                <h5>University of Lagos</h5>
+                                <p class="education-date">2012 - 2016</p>
+                                <p>Graduated with honors. Specialized in web technologies and digital media.</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>Digital Marketing Certification</h4>
+                                <h5>Google Digital Skills</h5>
+                                <p class="education-date">2017</p>
+                                <p>Comprehensive training in digital marketing strategies, SEO, and analytics.</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>Advanced Web Development</h4>
+                                <h5>Frontend Masters</h5>
+                                <p class="education-date">2019</p>
+                                <p>Intensive program covering modern JavaScript frameworks and responsive design.</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>UI/UX Design Certification</h4>
+                                <h5>Interaction Design Foundation</h5>
+                                <p class="education-date">2020</p>
+                                <p>Professional certification in user interface and experience design principles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p>I'm a passionate entrepreneur based in Nigeria, dedicated to helping people succeed in the digital space. With expertise in design, digital strategy, and web development, I provide comprehensive solutions to elevate your online presence.</p>
+                        <p>My e-book "How to make $500 in 5 days with digital tools" has helped numerous individuals kickstart their online careers.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's discuss how I can help you succeed online</p>
+                </div>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p>hello@pandaiqsolutions.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://twitter.com/pandaiqsolutions" target="_blank" class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                                    Twitter
+                                </a>
+                                <a href="https://linkedin.com/in/pandaiqsolutions" target="_blank" class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                    LinkedIn
+                                </a>
+                                <a href="https://instagram.com/pandaiqsolutions" target="_blank" class="social-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>PandaIQ<span>Solutions</span></h2>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-services">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Canva Templates</a></li>
+                            <li><a href="#">Logo Design</a></li>
+                            <li><a href="#">Digital Strategy</a></li>
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PandaIQ Solutions. All rights reserved.</p>
+                <p class="made-in">Built with purpose in Nigeria 🇳🇬</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
